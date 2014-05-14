@@ -2,7 +2,19 @@
 <resources>
 
     <string name="app_name">Money Manager</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="Ok">OK</string>
+    <string name="fatto">Fatto</string>
+    <string name="nuovo_bilancio">Imposta un nuovo bilancio</string>
+    <string name="nuova_spesa">Aggiungi spesa</string>
+    <string name="sottrai_spesa">Sottrai spesa</string>
+    <string name="bilancio_iniziale">Imposta il bilancio iniziale</string>
+    <string name="agg_soldi_bilancio">Incrementa valore bilancio</string>
+    <string name="sottrai_bilancio">Sottrai al bilancio</string>
+    
+    <string-array name="tipo_spesa">
+        <item>Cibo</item>
+        <item>Altro</item>
+        <item>Vestiti</item>
+    </string-array>
 
 </resources>

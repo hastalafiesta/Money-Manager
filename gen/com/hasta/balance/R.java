@@ -8,6 +8,9 @@
 package com.hasta.balance;
 
 public final class R {
+    public static final class array {
+        public static final int tipo_spesa=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -22,26 +25,39 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int custom=0x7f020000;
+        public static final int icon=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080004;
-        public static final int add=0x7f080001;
-        public static final int balance_value=0x7f080003;
-        public static final int nuovo_bilancio=0x7f080002;
-        public static final int tv=0x7f080000;
+        public static final int action_settings=0x7f090009;
+        public static final int importo=0x7f090001;
+        public static final int incrementa_bilancio=0x7f090004;
+        public static final int nuovo_bilancio=0x7f090003;
+        public static final int sottrai_bilancio=0x7f090005;
+        public static final int sottrai_spesa=0x7f090002;
+        public static final int spesa=0x7f090007;
+        public static final int spinner=0x7f090008;
+        public static final int tv=0x7f090000;
+        public static final int valore_bilancio=0x7f090006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int dialog=0x7f030001;
+        public static final int dialog_nuovo_bilancio=0x7f030001;
+        public static final int dialog_spesa=0x7f030002;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
+        public static final int Ok=0x7f050001;
+        public static final int agg_soldi_bilancio=0x7f050007;
         public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050001;
+        public static final int bilancio_iniziale=0x7f050006;
+        public static final int fatto=0x7f050002;
+        public static final int nuova_spesa=0x7f050004;
+        public static final int nuovo_bilancio=0x7f050003;
+        public static final int sottrai_bilancio=0x7f050008;
+        public static final int sottrai_spesa=0x7f050005;
     }
     public static final class style {
         /** 
@@ -65,10 +81,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
