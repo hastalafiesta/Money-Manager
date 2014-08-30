@@ -262,7 +262,7 @@ public class MainActivity extends Activity {
 		
 	}
        public void updateTextView(){   
-    	   tv.setText("BILANCIO: "+String.valueOf(prefs.getFloat("bilancio", 0)+" €\n"+"SOLDI SPESI: "+String.valueOf(prefs.getFloat("somma_totale_spese", 0))+" €\n"+"RIMANENTE: "+String.valueOf(prefs.getFloat("rimanente", 0))+" €\n"+"CIBO: "+String.valueOf(prefs.getFloat("cibo", 0))+" €\n"+"VESTITI: "+String.valueOf(prefs.getFloat("vestiti", 0))+" €\n"+"ALTRO: "+String.valueOf((prefs.getFloat("altro", 0))+" €")));
+    	   tv.setText("BILANCIO INIZIALE: "+String.valueOf(prefs.getFloat("bilancio", 0)+"\n"+"SOLDI SPESI: "+String.valueOf(prefs.getFloat("somma_totale_spese", 0))+"\n"+"RIMANENTE: "+String.valueOf(prefs.getFloat("rimanente", 0))+"\n"+"CIBO: "+String.valueOf(prefs.getFloat("cibo", 0))+"\n"+"VESTITI: "+String.valueOf(prefs.getFloat("vestiti", 0))+"\n"+"ALTRO: "+String.valueOf((prefs.getFloat("altro", 0)))));
        }
        
        public void showToast(Context context, String text) {
